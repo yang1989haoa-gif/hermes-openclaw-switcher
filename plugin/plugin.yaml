@@ -1,0 +1,8 @@
+name: openclaw-switcher
+description: Route messages to OpenClaw when mode is active
+kind: standalone
+version: 1.0.0
+author: Hermes Community
+license: MIT
+provides_hooks:
+  - pre_gateway_dispatch

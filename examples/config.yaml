@@ -1,0 +1,14 @@
+# OpenClaw Switcher Plugin 配置示例
+# 复制到 ~/.hermes/config.yaml
+
+plugins:
+  openclaw-switcher:
+    enabled: true
+    # OpenClaw API 地址（默认本地）
+    openclaw_base_url: "http://localhost:18789"
+    # API 密钥（必填，也可通过 OPENCLAW_API_KEY 环境变量设置）
+    openclaw_api_key: ""
+    # 使用的模型 ID
+    openclaw_model: "openclaw/bot2-agent"
+    # API 调用超时（秒）
+    openclaw_timeout: 120
